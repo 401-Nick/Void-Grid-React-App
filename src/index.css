@@ -1,5 +1,12 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
 body {
   margin: 0;
+  background-color: #3B3B43;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +14,46 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav ul{
+  padding: 10px;
+  background-color: #18181B;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.voidGrid3D{
+  display: flex;
+  margin: auto;
+  background-color: black;
+  height: 60vh;
+  width: 95%;
+  border-radius: 0 0 10px 10px;
+}
+
+.voidGridText h1{
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  /* margin: 10px; */
+}
+.voidGridText p{
+  color: white;
+  font-size: 1.5rem;
+  margin: auto;
+  width: 95%;
+}
+
+.voidGridText h2{
+  
+  font-size: 3rem;
+  /* margin-top: 50px; */
+  margin-left: 60px;
+  display: flex;
+  justify-content: left;
+}
+
+h1, h2, p{
+  padding: 10px;
 }
